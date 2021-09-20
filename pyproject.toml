@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "microrts-sb3"
+version = "0.1.0"
+description = ""
+authors = ["Costa Huang <costa.huang@outlook.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+stable-baselines3 = "^1.2.0"
+tensorboard = "^2.6.0"
+wandb = "^0.12.2"
+sb3-contrib = {git = "https://github.com/kronion/stable-baselines3-contrib.git"}
+gym-microrts = "^0.4.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
